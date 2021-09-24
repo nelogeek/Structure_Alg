@@ -55,9 +55,9 @@ int main()
     cout << "The product of numbers is " << prod << endl;
     
     bubble_sort(array, n);
-    for (int i = 0; i < n; i++) {
+    
+    for (int i = n-1; i >= 0; i--) {
         cout << array[i] << " ";
     }
-
 }
 

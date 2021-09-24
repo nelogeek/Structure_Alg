@@ -5,7 +5,11 @@
       <FullPath>C:\Users\iell\OneDrive\Рабочий стол\Структуры\Влад\Structure_Alg\Debug\Structure_Alg.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
-  <ContentFiles />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\iell\OneDrive\Рабочий стол\Структуры\Влад\Structure_Alg\Structure_Alg\func_array.h</FullPath>
+    </ContentFile>
+  </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
 </Project>
