@@ -17,7 +17,7 @@ int main()
         }
     }
     cout << endl;
-    cout << "1) Sum = " << sum_pos;
+    cout << "Sum positive= " << sum_pos;
 
     int max = array[0];
     int min = array[1];
@@ -52,9 +52,12 @@ int main()
         cout << "ERROR!!!" << endl;
     }
     cout << endl;
-    cout << "The product of numbers is " << prod;
+    cout << "The product of numbers is " << prod << endl;
     
-    
+    bubble_sort(array, n);
+    for (int i = 0; i < n; i++) {
+        cout << array[i] << " ";
+    }
 
 }
 
